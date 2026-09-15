@@ -1,8 +1,18 @@
+# CMake, C++, C файлдарын статистикадан жасыру
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+**/CMakeLists.txt linguist-vendored
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.cc linguist-vendored
 *.hpp linguist-vendored
+
+# Платформалық қалталарды жасыру
 android/** linguist-vendored
 ios/** linguist-vendored
 windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+
+# Dart тілін негізгі ету
 *.dart linguist-detectable=true
